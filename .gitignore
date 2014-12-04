@@ -1,16 +1,3 @@
-
-
-
-
-
-
-
-# backup
-# commonly ignored files
-# editors
-# os x
-# tools
-# version control
 *._flymake.*
 *.gem
 *.project
@@ -39,3 +26,5 @@ TAGS*
 a.out
 nohop.out
 spec/test.yml
+bin
+.bundle

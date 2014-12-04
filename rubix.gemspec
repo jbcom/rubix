@@ -7,8 +7,8 @@ Gem::Specification.new do |gem|
   gem.name         = 'rubix'
   gem.homepage     = 'http://github.com/dhruvbansal/rubix'
   gem.licenses     = ["Apache 2.0"]
-  gem.email        = ['dhruv@infochimps.com', 'coders@infochimps.org']
-  gem.authors      = ['Dhruv Bansal', 'Infochimps']
+  gem.email        = ['jon@jonbogaty.com', 'dhruv@infochimps.com', 'coders@infochimps.org']
+  gem.authors      = ['Jon Bogaty', 'Dhruv Bansal', 'Infochimps']
   gem.version      = File.read(File.join(root, 'VERSION')).strip
 
   gem.platform     = Gem::Platform::RUBY
@@ -26,6 +26,6 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency 'chef'
   gem.add_dependency 'multi_json'
-  gem.add_dependency 'configliere',   '>= 0.4.16'
+  gem.add_dependency 'configliere'
   gem.add_dependency 'multipart-post'
 end
